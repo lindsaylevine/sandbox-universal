@@ -1,6 +1,6 @@
 [build]
   command = "ng build --configuration production && ng run sandbox-universal:serverless:production"
-  publish = "dist/browser"
+  publish = "dist/sandbox-universal/browser"
 
 [[plugins]]
-  package = "@netlify/plugin-angular-serverless"
+  package = "@netlify/plugin-angular-universal"
